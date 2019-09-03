@@ -5,7 +5,6 @@
 	<groupId>com.luv2code</groupId>
 	<artifactId>spring-security-demo</artifactId>
 	<version>1.0</version>
-	<packaging>war</packaging>
 
 	<name>spring-security-demo</name>
 
@@ -36,40 +35,15 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-			<version>${springboot.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-			<version>${h2.version}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>bootstrap</artifactId>
 			<version>${bootstrap.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-jpa</artifactId>
-			<version>2.1.9.RELEASE</version>
 		</dependency>
 
 		<dependency>
@@ -83,12 +57,6 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.2</version>
 		</dependency>
-		<dependency>
-			<groupId>ae.pegasus.qatools</groupId>
-			<artifactId>api-tests</artifactId>
-			<version>1.0.0</version>
-			<scope>test</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -101,13 +69,6 @@
 
 	<build>
 		<plugins>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.2.3</version>
-			</plugin>
-
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
